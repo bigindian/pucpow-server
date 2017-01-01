@@ -1,0 +1,28 @@
+{
+  "name": "PUC POW",
+  "version": "2.0.0",
+  "private": true,
+  "description": "The backend for the PUC POW app",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "dateformat": "^2.0.0",
+    "express": "~4.14.0",
+    "morgan": "^1.7.0",
+    "node-ses": "^2.0.1",
+    "nodemailer": "^2.6.4",
+    "nodemailer-ses-transport": "^1.5.0",
+    "parse": "~1.9.0",
+    "parse-dashboard": "1.0.15",
+    "parse-server": "2.2.17",
+    "socket.io": "^1.4.8",
+    "underscore": "^1.8.3",
+    "validator": "^6.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
