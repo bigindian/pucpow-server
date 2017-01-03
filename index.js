@@ -33,7 +33,7 @@ var configParse = {
   databaseURI: config("DATABASE_URI"),
   appId: config("APP_ID"),
   masterKey: config("MASTER_KEY"),
-  clientKey: config("CLIENT_KEY"),
+  // clientKey: config("CLIENT_KEY"),
 
   cloud: cloudCodeDirectory,
   serverURL: localParseUrl,
@@ -74,7 +74,7 @@ console.log("running version:", packageJson.version)
 // Create an express instance
 var app = express()
 
-app.use(morgan('combined'))
+// app.use(morgan('combined'))
 
 // Create the parse server and serve it at the "/parse" route
 var parseApi = new ParseServer(configParse)
